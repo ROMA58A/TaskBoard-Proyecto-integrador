@@ -1,0 +1,16 @@
+{
+    "name": "taskboard/guia-3",
+    "description": "Proyecto TaskBoard - Namespaces, Composer y PDO",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "nesbot/carbon": "^3.8",
+        "ramsey/uuid": "^4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
